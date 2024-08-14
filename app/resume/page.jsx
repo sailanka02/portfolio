@@ -7,9 +7,21 @@ import {
   FaReact,
   FaFigma,
   FaNodeJs,
+  FaPython,
+  FaJava,
+  FaSwift,
+  FaGit,
+  FaGithub,
+  FaGitlab,
+  FaAws,
+  FaMicrosoft
 } from "react-icons/fa";
 
-import { SiTailwindcss, SiNextdotjs } from "react-icons/si";
+import { DiGoogleCloudPlatform } from "react-icons/di";
+
+import { VscVscodeInsiders } from "react-icons/vsc";
+
+import {SiPandas, SiTailwindcss, SiNextdotjs, SiCplusplus, SiCsharp, SiC} from "react-icons/si";
 
 // about data
 const about = {
@@ -57,7 +69,7 @@ const experience = {
   icon: "/assets/resume/badge.svg",
   title: "My experience",
   description:
-    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates quibusdam, sunt explicabo inventore.",
+    "Well rounded long term professional experience in the tech industry, working with various companies and organizations.",
   items: [
     {
       company: "MacysTech",
@@ -87,7 +99,7 @@ const education = {
   icon: "/assets/resume/cap.svg",
   title: "My education",
   description:
-    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates quibusdam, sunt explicabo inventore.",
+    "Education in multiple fields, including computer science, electronics engineering, data engineering and cloud computing.",
   items: [
 
     {
@@ -156,6 +168,64 @@ const skills = {
       icon: <FaFigma />,
       name: "figma",
     },
+    {
+      icon: <VscVscodeInsiders />,
+      name: "vs code",
+    },
+    {
+      icon: <FaPython />,
+      name: "python",
+    },
+    {
+      icon: <FaJava />,
+      name: "java",
+    },
+    {
+      icon: <SiCplusplus />,
+      name: "c++",
+    },
+    {
+      icon: <SiCsharp />,
+      name: "c#",
+    },
+    {
+      icon: <SiC />,
+      name: "c",
+    },
+    {
+      icon: <FaSwift />,
+      name: "swift",
+    },
+    {
+      icon: <SiPandas />,
+      name: "pandas",
+    },
+    {
+      icon: <DiGoogleCloudPlatform />,
+        name: "google cloud",
+    },
+    {
+      icon: <FaAws />,
+      name: "aws",
+    },
+    {
+      icon: <FaMicrosoft />,
+      name: "microsoft",
+    },
+    {
+      icon: <FaGit />,
+      name: "git",
+    },
+    {
+        icon: <FaGithub />,
+        name: "github",
+    },
+    {
+        icon: <FaGitlab />,
+        name: "gitlab",
+    },
+
+
   ],
 };
 
