@@ -15,23 +15,23 @@ import { SiTailwindcss, SiNextdotjs } from "react-icons/si";
 const about = {
   title: "About me",
   description:
-    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates quibusdam, sunt explicabo inventore.",
+    "Highly motivated, goal-oriented college senior with a track record of academic excellence and passion for understanding and exploring new skills and opportunities. Has built communication skills and academic talent through many years of extracurricular involvement and multidisciplinary experiences. Constantly looking for intriguing and challenging opportunities to increase my knowledge and skill set.",
   info: [
     {
       fieldName: "Name",
-      fieldValue: "Luke Coleman",
+      fieldValue: "Sai Prashanth Lanka",
     },
     {
       fieldName: "Phone",
-      fieldValue: "(+40) 321 654 678",
+      fieldValue: "+1(972) 469-2323",
     },
     {
       fieldName: "Experience",
-      fieldValue: "12+ Years",
+      fieldValue: "5+ Years",
     },
     {
-      fieldName: "Skype",
-      fieldValue: "luke.01",
+      fieldName: "GitHub",
+      fieldValue: "sailanka02",
     },
     {
       fieldName: "Nationality",
@@ -39,15 +39,15 @@ const about = {
     },
     {
       fieldName: "Email",
-      fieldValue: "luke.01@gmail.com",
+      fieldValue: "saip.lanka02@gmail.com",
     },
     {
-      fieldName: "Freelance",
-      fieldValue: "Available",
+      fieldName: "Occupation",
+      fieldValue: "Looking",
     },
     {
       fieldName: "Languages",
-      fieldValue: "English, Spanish",
+      fieldValue: "English",
     },
   ],
 };
@@ -60,34 +60,24 @@ const experience = {
     "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates quibusdam, sunt explicabo inventore.",
   items: [
     {
-      company: "Tech Solutions Inc.",
-      position: "Full Stack Developer",
-      duration: "2022 - Present",
+      company: "MacysTech",
+      position: "Developer Intern",
+      duration: "June 2024 - August 2024",
     },
     {
-      company: "Web Design Studio",
-      position: "Front-End Developer Intern",
-      duration: "Summer 2021",
+      company: "WellMed/UnitedHealth Group",
+      position: "Developer/Technology Intern",
+      duration: "May 2023 - August 2023",
     },
     {
-      company: "E-commerce Startup",
-      position: "Freelance Web Developer",
-      duration: "2020 - 2021",
+      company: "Cepheid",
+      position: "Project Management/Gov Intern",
+      duration: "May 2022 - August 2022",
     },
     {
-      company: "Tech Academy",
-      position: "Teaching Assistant",
-      duration: "2019 - 2020",
-    },
-    {
-      company: "Digital Agency",
-      position: "UI/UX Designer",
-      duration: "2018 - 2019",
-    },
-    {
-      company: "Software Development Firm",
-      position: "Junior Developer",
-      duration: "2017 - 2018",
+      company: "LAK Technologies LLC",
+      position: "Cloud Resources Intern",
+      duration: "January 2019 - January 2022",
     },
   ],
 };
@@ -99,30 +89,26 @@ const education = {
   description:
     "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates quibusdam, sunt explicabo inventore.",
   items: [
-    {
-      institution: "Online Course Platform",
-      degree: "Full Stack Web Development Bootcamp",
-      duration: "2023",
-    },
+
     {
       institution: "Codecademy",
-      degree: "Front-end Track",
+      degree: "Full-Stack Developer Track",
+      duration: "2024",
+    },
+    {
+      institution: "Texas A&M University",
+      degree: "Electronics Engineering",
+      duration: "2021 - ",
+    },
+    {
+      institution: "Amazon Web Services",
+      degree: "Certified Cloud Practitioner",
       duration: "2022",
     },
     {
-      institution: "Online Course",
-      degree: "Programming Course",
-      duration: "2020 - 2021",
-    },
-    {
-      institution: "Tech Institute",
-      degree: "Certified Web Developer",
-      duration: "2019",
-    },
-    {
-      institution: "Design School",
-      degree: "Diploma in Graphic Design",
-      duration: "2016 - 2018",
+      institution: "LinkedIn Learning",
+      degree: "Python Machine Learning",
+      duration: "2021",
     },
     {
       institution: "Community College",
