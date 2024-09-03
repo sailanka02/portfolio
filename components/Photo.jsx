@@ -24,6 +24,7 @@ const Photo = () => {
         >
           <Image
             src="/assets/photo.png"
+            overrideSrc="/assets/photo.png"
             priority
             quality={100}
             fill
