@@ -1,6 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { FiDownload } from "react-icons/fi";
 
+
 // components
 import Social from "@/components/Social";
 import Photo from "@/components/Photo";
@@ -15,7 +16,7 @@ const Home = () => {
           <div className="text-center xl:text-left order-2 xl:order-none">
             <span className="text-xl">Developer/Engineer</span>
             <h1 className="h1 mb-6">
-              Hello Im <br /> <span className="text-accent">Sai Prashanth Lanka</span>
+              Hello I'm <br /> <span className="text-accent">Sai Prashanth Lanka</span>
             </h1>
             <p className="max-w-[500px] mb-9 text-white/80">
             I am proficient in various programming languages and technologies for:
@@ -28,7 +29,7 @@ const Home = () => {
                 size="lg"
                 className="uppercase flex items-center gap-2"
               >
-                <span>Download CV</span>
+                <a href="/assets/cv.pdf" target="_blank">Download CV</a>
                 <FiDownload className="text-xl" />
               </Button>
               <div className="mb-8 xl:mb-0">

@@ -1,5 +1,4 @@
 "use client";
-
 import { motion } from "framer-motion";
 import Image from "next/image";
 
@@ -24,7 +23,7 @@ const Photo = () => {
         >
           <Image
             src="/assets/photo.png"
-            overrideSrc="/assets/photo.png"
+            
             priority
             quality={100}
             fill
