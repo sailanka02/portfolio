@@ -6,30 +6,30 @@ import Link from "next/link";
 const services = [
   {
     num: "01",
-    title: "Web Development",
+    title: "Full Stack Development",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque tenetur.",
+      "I have experience in developing web applications using various technologies for around 3+ years. I have a Full Stack Development certification with Codeacademy.",
     href: "",
   },
   {
     num: "02",
-    title: "UI/UX Design",
+    title: "Machine Learning/Data Science",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque tenetur.",
+      "I have been working on Machine Learning and Data Science projects for the past 2 years. I have a certification in Machine Learning from LinkedIn.",
     href: "",
   },
   {
     num: "03",
-    title: "Logo Design",
+    title: "Cyber Security",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque tenetur.",
+      "I have done a 4 year degree on Cyber Security and have been working in various Networking and Security classes.",
     href: "",
   },
   {
     num: "04",
-    title: "SEO",
+    title: "Cloud Computing",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque tenetur.",
+      "I have been working on Cloud Computing projects for the past 2 years in AWS. I have a certification in Cloud Computing from AWS. I also have working experience with Azure and GCP.",
     href: "",
   },
 ];

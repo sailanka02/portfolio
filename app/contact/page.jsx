@@ -70,9 +70,11 @@ const Contact = () => {
                 <SelectContent>
                   <SelectGroup>
                     <SelectLabel>Select a service</SelectLabel>
-                    <SelectItem value="est">Web Development</SelectItem>
-                    <SelectItem value="cst">UI/UX Design</SelectItem>
-                    <SelectItem value="mst">Logo Design</SelectItem>
+                    <SelectItem value="est">Full Stack Development</SelectItem>
+                    <SelectItem value="cst">Machine Learning</SelectItem>
+                    <SelectItem value="mst">Data Science</SelectItem>
+                    <SelectItem value="mst">Cyber Security</SelectItem>
+                    <SelectItem value="mst">Cloud Computing</SelectItem>
                   </SelectGroup>
                 </SelectContent>
               </Select>
