@@ -36,22 +36,31 @@ const projects = [
     category: "fullstack",
     title: "project 2",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate magnam modi.",
+      "SafeBet is an app which targets college students and potential investors and developers to invest in an idea from day one in exchange for a share of the business by either offering services or money.",
     stack: [{ name: "Next.js" }, { name: "Tailwind.css" }, { name: "Node.js" }],
     image: "/assets/work/thumb2.png",
-    live: "",
-    github: "",
+    live: "https://devpost.com/software/safebet-txnsqh",
+    github: "https://github.com/sailanka02/SafeBet",
   },
   {
     num: "03",
     category: "frontend",
     title: "project 3",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate magnam modi.",
+      "File Watcher Application...",
     stack: [{ name: "Next.js" }, { name: "Tailwind.css" }],
     image: "/assets/work/thumb3.png",
-    live: "",
-    github: "",
+    github: "https://github.com/sailanka02/WellMedFileWatcher",
+  },
+  {
+    num: "03",
+    category: "frontend",
+    title: "project 3",
+    description:
+      "File Watcher Application...",
+    stack: [{ name: "Next.js" }, { name: "Tailwind.css" }],
+    image: "/assets/work/thumb3.png",
+    github: "https://github.com/sailanka02/WellMedFileWatcher",
   },
 ];
 
