@@ -22,13 +22,13 @@ import WorkSliderBtns from "@/components/WorkSliderBtns";
 const projects = [
   {
     num: "01",
-    category: "frontend",
-    title: "project 1",
+    category: "Full Stack Application",
+    title: "SafeStreets",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate magnam modi.",
+      "SafeStreets is an app that allows users to receive safer directions. SafeStreets allows the user to choose between three routes (Good, Ok, Bad).",
     stack: [{ name: "Html 5" }, { name: "Css 3" }, { name: "Javascript" }],
     image: "/assets/work/thumb1.png",
-    live: "",
+    live: "https://devpost.com/software/safeside",
     github: "",
   },
   {
