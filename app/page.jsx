@@ -24,14 +24,14 @@ const Home = () => {
             </p>
             {/* btn and socials */}
             <div className="flex flex-col xl:flex-row items-center gap-8">
-              <Button
+            <a href="/assets/SAI_LANKA_RESUME_MAIN.pdf" target="_blank"><Button
                 variant="outline"
                 size="lg"
                 className="uppercase flex items-center gap-2"
               >
-                <a href="/assets/SAI_LANKA_RESUME_MAIN.pdf" target="_blank">Download CV</a>
+                Download CV
                 <FiDownload className="text-xl" />
-              </Button>
+              </Button></a>
               <div className="mb-8 xl:mb-0">
                 <Social
                   containerStyles="flex gap-6"
