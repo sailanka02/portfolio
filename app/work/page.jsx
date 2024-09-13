@@ -29,12 +29,12 @@ const projects = [
     stack: [{ name: "Html 5" }, { name: "Css 3" }, { name: "Javascript" }],
     image: "/assets/work/thumb1.png",
     live: "https://devpost.com/software/safeside",
-    github: "",
+    github: "https://github.com/sailanka02",
   },
   {
     num: "02",
-    category: "fullstack",
-    title: "project 2",
+    category: "Full Stack Application",
+    title: "SafeBet",
     description:
       "SafeBet is an app which targets college students and potential investors and developers to invest in an idea from day one in exchange for a share of the business by either offering services or money.",
     stack: [{ name: "Next.js" }, { name: "Tailwind.css" }, { name: "Node.js" }],
@@ -44,23 +44,25 @@ const projects = [
   },
   {
     num: "03",
-    category: "frontend",
-    title: "project 3",
+    category: "Full Stack Application",
+    title: "WellMed File Watcher",
     description:
       "File Watcher Application...",
     stack: [{ name: "Next.js" }, { name: "Tailwind.css" }],
     image: "/assets/work/thumb3.png",
+    live: "https://github.com/sailanka02/WellMedFileWatcher",
     github: "https://github.com/sailanka02/WellMedFileWatcher",
   },
   {
-    num: "03",
-    category: "frontend",
-    title: "project 3",
+    num: "04",
+    category: "Full Stack Application",
+    title: "Portfolio Website",
     description:
       "File Watcher Application...",
     stack: [{ name: "Next.js" }, { name: "Tailwind.css" }],
     image: "/assets/work/thumb3.png",
-    github: "https://github.com/sailanka02/WellMedFileWatcher",
+    live: "https://saiprashanthlanka.com",
+    github: "https://github.com/sailanka02/portfolio",
   },
 ];
 
@@ -93,8 +95,12 @@ const Work = () => {
               </div>
               {/* project category */}
               <h2 className="text-[42px] font-bold leading-none text-white group-hover:text-accent transition-all duration-500 capitalize">
-                {project.category} project
+                {project.title}
               </h2>
+              {/* project category */}
+              <h4 className="text-[20px] font-bold leading-none text-white group-hover:text-accent transition-all duration-500 capitalize">
+                {project.category}
+              </h4>
               {/* project description */}
               <p className="text-white/60">{project.description}</p>
               {/* stack */}
