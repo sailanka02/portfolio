@@ -44,25 +44,36 @@ const projects = [
   },
   {
     num: "03",
-    category: "Full Stack Application",
-    title: "WellMed File Watcher",
+    category: "Data/ML Application",
+    title: "AI Stock Bot",
     description:
-      "Developed a file-sharing application using ASP.NET for internal team use to increase efficiency. Allowed users with permissions to force file sharing without a Control-M request.. Picture not available as its a privately used application",
+      "Developed an AI-driven stock trading bot that automatically analyzes market trends and executes trades based on predictive models. Technologies used include Python, Machine Learning algorithms, and API integration for real-time data analysis. Picture not available yet.",
     stack: [{ name: "Next.js" }, { name: "Tailwind.css" }],
-    image: "/assets/work/wellmed.png",
-    live: "https://github.com/sailanka02/WellMedFileWatcher",
-    github: "https://github.com/sailanka02/WellMedFileWatcher",
+    image: "/assets/work/stockbot.png",
+    live: "https://github.com/sailanka02/AIStockBot",
+    github: "https://github.com/sailanka02/AIStockBot",
   },
   {
     num: "04",
     category: "Full Stack Application",
     title: "Portfolio Website",
     description:
-      "File Watcher Application...",
+      "Developed and deployed a portfolio website using React.js and for Next.js to display my experiences and projects. Designed and implemented interactive UI components, delivering a seamless user experience across devices and screen sizes.",
     stack: [{ name: "Next.js" }, { name: "Tailwind.css" }],
-    image: "/assets/work/thumb3.png",
+    image: "/assets/work/portpic.png",
     live: "https://saiprashanthlanka.com",
     github: "https://github.com/sailanka02/portfolio",
+  },
+  {
+    num: "05",
+    category: "Full Stack Application",
+    title: "WellMed File Watcher",
+    description:
+      "Developed a file-sharing application using ASP.NET for internal team use to increase efficiency. Allowed users with permissions to force file sharing without a Control-M request. Picture not available as its a privately used application",
+    stack: [{ name: "Next.js" }, { name: "Tailwind.css" }],
+    image: "/assets/work/wellmed.png",
+    live: "https://github.com/sailanka02/WellMedFileWatcher",
+    github: "https://github.com/sailanka02/WellMedFileWatcher",
   },
 ];
 
