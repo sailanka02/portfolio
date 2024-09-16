@@ -47,9 +47,9 @@ const projects = [
     category: "Full Stack Application",
     title: "WellMed File Watcher",
     description:
-      "File Watcher Application...",
+      "Developed a file-sharing application using ASP.NET for internal team use to increase efficiency. Allowed users with permissions to force file sharing without a Control-M request.. Picture not available as its a privately used application",
     stack: [{ name: "Next.js" }, { name: "Tailwind.css" }],
-    image: "/assets/work/thumb3.png",
+    image: "/assets/work/wellmed.png",
     live: "https://github.com/sailanka02/WellMedFileWatcher",
     github: "https://github.com/sailanka02/WellMedFileWatcher",
   },
