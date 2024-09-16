@@ -38,7 +38,7 @@ const projects = [
     description:
       "SafeBet is an app which targets college students and potential investors and developers to invest in an idea from day one in exchange for a share of the business by either offering services or money.",
     stack: [{ name: "Next.js" }, { name: "Tailwind.css" }, { name: "Node.js" }],
-    image: "/assets/work/thumb2.png",
+    image: "/assets/work/safebet.png",
     live: "https://devpost.com/software/safebet-txnsqh",
     github: "https://github.com/sailanka02/SafeBet",
   },
