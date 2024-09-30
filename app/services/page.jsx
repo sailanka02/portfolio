@@ -9,28 +9,28 @@ const services = [
     title: "Full Stack Development",
     description:
       "I have experience in developing web applications using various technologies for around 3+ years. I have a Full Stack Development certification with Codeacademy.",
-    href: "",
+    href: "https://www.saiprashanthlanka.com/work",
   },
   {
     num: "02",
     title: "Machine Learning/Data Science",
     description:
       "I have been working on Machine Learning and Data Science projects for the past 2 years. I have a certification in Machine Learning from LinkedIn.",
-    href: "",
+    href: "https://www.saiprashanthlanka.com/work",
   },
   {
     num: "03",
     title: "Cyber Security",
     description:
       "I have done a 4 year degree on Cyber Security and have been working in various Networking and Security classes.",
-    href: "",
+    href: "https://www.saiprashanthlanka.com/work",
   },
   {
     num: "04",
     title: "Cloud Computing",
     description:
       "I have been working on Cloud Computing projects for the past 2 years in AWS. I have a certification in Cloud Computing from AWS. I also have working experience with Azure and GCP.",
-    href: "",
+    href: "https://www.saiprashanthlanka.com/work",
   },
 ];
 
