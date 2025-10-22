@@ -3,6 +3,11 @@
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
+import { useState, useEffect } from "react";
+import { useForm } from "react-hook-form";
+import useWeb3Forms from "@web3forms/react";
+import { motion } from "framer-motion";
+
 
 import {
   Select,
@@ -34,9 +39,35 @@ const info = [
   },
 ];
 
-import { motion } from "framer-motion";
-
 const Contact = () => {
+  const [result, setResult] = useState("");
+  async function handleSubmit(e) {
+    e.preventDefault();
+    setResult("Sending....");
+    const response = await fetch("https://api.web3forms.com/submit", {
+        method: "POST",
+        headers: {
+            "Content-Type": "application/json",
+            Accept: "application/json",
+        },
+        body: JSON.stringify({
+            access_key: "989ad6db-7c7f-4619-b285-30821b7ffdfd",
+            name: e.target.name.value + " " + e.target.lastname.value,  
+            email: e.target.email.value,
+            phone: e.target.phone.value,
+            service: e.target.service.value,
+            message: e.target.message.value,
+        }),
+    });
+   const result1 = await response.json();
+    if (result1.success) {
+      setResult("Form Submitted Successfully");
+      e.target.reset();
+    } else {
+      console.log("Error", result);
+      setResult(result1.message);
+  }
+}
   return (
     <motion.section
       initial={{ opacity: 0 }}
@@ -49,45 +80,47 @@ const Contact = () => {
       <div className="container mx-auto">
         <div className="flex flex-col xl:flex-row gap-[30px]">
           {/* form */}
-          <div className="xl:w-[54%] order-2 xl:order-none">
-            <form className="flex flex-col gap-6 p-10 bg-[#27272c] rounded-xl">
+          <div className="xl:w-[54%] order-2 xl:order-none" >
+            <form className="flex flex-col gap-6 p-10 bg-[#27272c] rounded-xl" onSubmit={handleSubmit}>
               <h3 className="text-4xl text-accent">Lets work together</h3>
               <p className="text-white/60">
                 Please reach out to me with any questions or opportunities. Hope to work with you soon!
               </p>
               {/* input */}
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-                <Input type="firstname" placeholder="Firstname" />
-                <Input type="lastname" placeholder="Lastname" />
-                <Input type="email" placeholder="Email address" />
-                <Input type="phone" placeholder="Phone number" />
+                <Input type="firstname" name="name" placeholder="First Name" />
+                <Input type="lastname" name="lastname" placeholder="Last Name" />
+                <Input type="email" name="email"placeholder="Email Address" />
+                <Input type="phone" name="phone" placeholder="Phone Number" />
               </div>
               {/* select */}
-              <Select>
+              <Select name="service">
                 <SelectTrigger className="w-full">
                   <SelectValue placeholder="Select a service" />
                 </SelectTrigger>
                 <SelectContent>
                   <SelectGroup>
                     <SelectLabel>Select a service</SelectLabel>
-                    <SelectItem value="est">Full Stack Development</SelectItem>
-                    <SelectItem value="cst">Machine Learning</SelectItem>
-                    <SelectItem value="mst">Data Science</SelectItem>
-                    <SelectItem value="mst">Cyber Security</SelectItem>
-                    <SelectItem value="mst">Cloud Computing</SelectItem>
+                    <SelectItem value="Full Stack Development">Full Stack Development</SelectItem>
+                    <SelectItem value="Machine Learning">Machine Learning</SelectItem>
+                    <SelectItem value="Data Science">Data Science</SelectItem>
+                    <SelectItem value="Cyber Security">Cyber Security</SelectItem>
+                    <SelectItem value="Cloud Computing">Cloud Computing</SelectItem>
                   </SelectGroup>
                 </SelectContent>
               </Select>
               {/* textarea */}
               <Textarea
                 className="h-[200px]"
+                name="message"
                 placeholder="Type your message here."
               />
               {/* btn */}
-              <Button size="md" className="max-w-40">
+              <Button type="submit" size="md" className="max-w-40">
                 Send message
               </Button>
             </form>
+            <div>{result}</div>
           </div>
           {/* info */}
           <div className="flex-1 flex items-center xl:justify-end order-1 xl:order-none mb-8 xl:mb-0">

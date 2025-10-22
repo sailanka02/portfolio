@@ -134,8 +134,9 @@ const education = {
 const skills = {
   title: "My skills",
   description:
-    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates quibusdam, sunt explicabo inventore.",
-  skillList: [
+  "Experience and proficiency in multiple programming languages, frameworks, and tools. Proficient in front-end and back-end development, cloud computing, and data engineering."
+  ,
+    skillList: [
     {
       icon: <FaHtml5 />,
       name: "html 5",
